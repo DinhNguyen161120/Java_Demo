@@ -11,6 +11,8 @@
 * [Java 03: Mức độ ưu tiên file Application và hiểu sâu về properties, yaml trong config dự án](https://www.youtube.com/watch?v=PvcIwEkUcEc)
 * [Java 04: Kỹ năng chuyển đổi PROJECT từ DEV qua TEST, PRE, PRODUCT](https://www.youtube.com/watch?v=z49Kb4a_cV0)
 
+* [Java 05: Làm quen với Spring Boot Folder Structure](https://www.youtube.com/watch?v=jnURsbcOycM)
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
