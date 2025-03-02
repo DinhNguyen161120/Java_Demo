@@ -13,6 +13,7 @@
 * [Java 05: Làm quen với Spring Boot Folder Structure](https://www.youtube.com/watch?v=jnURsbcOycM)
 * [JAVA 06: Spring Data JPA](https://www.youtube.com/watch?v=EwSrtrk7Kq0&t=17s)
 * [JAVA 07: Làm quen với Controller và Spring Data JPA](https://www.youtube.com/watch?v=0unBab23Kok)
+* [JAVA 08: Làm quen phân trang pageable với Spring Data JPA](https://www.youtube.com/watch?v=pDKVqwN4fLg)
 
 ### Reference Documentation
 For further reference, please consider the following sections:
