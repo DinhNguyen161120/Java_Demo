@@ -18,6 +18,11 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
+    @GetMapping("/hello")
+    public String Hello() {
+        return "Hello, NDD";
+    }
+
     @PostMapping("/product/add")
     public ProductEntity createProduct(ProductEntity productEntity) {
         return productService.createProduct(productEntity);

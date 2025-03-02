@@ -10,8 +10,8 @@
 * [Java 02: Install vs Start Project sử dụng vs CODE và intellij IDEA](https://www.youtube.com/watch?v=BpQsIGVrmXs&t=387s)
 * [Java 03: Mức độ ưu tiên file Application và hiểu sâu về properties, yaml trong config dự án](https://www.youtube.com/watch?v=PvcIwEkUcEc)
 * [Java 04: Kỹ năng chuyển đổi PROJECT từ DEV qua TEST, PRE, PRODUCT](https://www.youtube.com/watch?v=z49Kb4a_cV0)
-
 * [Java 05: Làm quen với Spring Boot Folder Structure](https://www.youtube.com/watch?v=jnURsbcOycM)
+* [JAVA 06: Spring Data JPA](https://www.youtube.com/watch?v=EwSrtrk7Kq0&t=17s)
 
 ### Reference Documentation
 For further reference, please consider the following sections:
