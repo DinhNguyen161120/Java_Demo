@@ -2,6 +2,8 @@ package com.ndd.repository;
 
 import java.util.List;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
@@ -16,6 +18,8 @@ import com.ndd.entity.user.UserEntity;
 public interface UserRepository extends JpaRepository<UserEntity, Long>, JpaSpecificationExecutor<UserEntity> {
     // 25:00 JAVA 06: https://www.youtube.com/watch?v=EwSrtrk7Kq0&t=17s
     UserEntity findByUserNameAndUserEmail(String userName, String userEmail); // add more query
+
+    Page<UserEntity> findByUserName(String name, Pageable pageable);
 
     // use when added JpaSpecificationExecutor
     @Query("Select user from UserEntity user where user.id = (Select MAX(p.id) FROM UserEntity p)")
