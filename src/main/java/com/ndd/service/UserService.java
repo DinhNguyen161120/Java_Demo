@@ -1,12 +1,13 @@
 package com.ndd.service;
 
-import java.util.List;
+import org.springframework.stereotype.Service;
 
 import com.ndd.entity.user.UserEntity;
 
+@Service
 public interface UserService {
 
     UserEntity createUser(UserEntity userEntity);
 
-    List<UserEntity> getAllUser();
+    UserEntity findByUserNameAndUserEmail(String userName, String userEmail);
 }
